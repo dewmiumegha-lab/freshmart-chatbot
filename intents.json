@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Is anyone there?", "Hey there"],
+      "responses": ["Hello! Welcome to FreshMart. How can I help you today?", "Hi there! What can I get for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Thanks, bye", "I'm leaving"],
+      "responses": ["Goodbye! Thanks for visiting FreshMart.", "See you next time! Have a great day."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["What are your opening hours?", "When do you open?", "What time do you close?", "Are you open now?", "Store timings"],
+      "responses": ["We're open every day from 7 AM to 10 PM.", "Our store hours are 7 AM - 10 PM daily."]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where are you located?", "What is your address?", "Where is the shop?", "How do I get there?"],
+      "responses": ["We're located at 123 Main Street, Negombo.", "You can find us at 123 Main Street, near the town center."]
+    },
+    {
+      "tag": "delivery",
+      "patterns": ["Do you deliver?", "Is home delivery available?", "Can I get items delivered?", "Delivery options", "How long does delivery take?"],
+      "responses": ["Yes! We offer home delivery within 5km, usually within 45 minutes.", "We deliver islandwide via courier, and locally within an hour."]
+    },
+    {
+      "tag": "payment",
+      "patterns": ["What payment methods do you accept?", "Can I pay by card?", "Do you accept cash?", "Is online payment available?"],
+      "responses": ["We accept cash, credit/debit cards, and online payments.", "You can pay with cash, card, or via bank transfer."]
+    },
+    {
+      "tag": "products",
+      "patterns": ["What products do you sell?", "Do you have vegetables?", "Do you sell fruits?", "What's in stock?", "Do you have dairy products?"],
+      "responses": ["We sell fresh vegetables, fruits, dairy, bakery items, and household essentials.", "Our store has fresh produce, groceries, dairy, and daily essentials."]
+    },
+    {
+      "tag": "price",
+      "patterns": ["How much does milk cost?", "What is the price of rice?", "How much for eggs?", "Price list please"],
+      "responses": ["Prices vary by item — check our in-store price list or website for current rates.", "You can find updated prices on our product catalog."]
+    },
+    {
+      "tag": "offers",
+      "patterns": ["Any discounts?", "Do you have offers?", "Any promotions today?", "Is there a sale?"],
+      "responses": ["Yes! We have weekly discounts on fresh produce every Friday.", "Check our notice board for this week's special offers."]
+    }
+  ]
+}
